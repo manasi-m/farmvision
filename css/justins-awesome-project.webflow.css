@@ -101,4 +101,17 @@
     color: #fff;
     text-align: center;
   }
+  .image-2 {
+    margin-left: 42px;
+    padding-top: 100px;
+  }
+  .heading-5 {
+    text-align: center;
+  }
+  .submit-button {
+    margin-right: 4px;
+    margin-left: 0px;
+    padding-right: 54%;
+    padding-left: 36%;
+  }
 }
