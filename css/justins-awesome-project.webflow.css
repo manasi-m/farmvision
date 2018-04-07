@@ -1,0 +1,104 @@
+@media (max-width: 479px) {
+  .body {
+    margin-top: 5px;
+    margin-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .heading {
+    position: relative;
+    bottom: 515px;
+    display: block;
+    margin-top: 300px;
+    margin-bottom: 26px;
+    padding-right: 19px;
+    padding-bottom: 26px;
+    padding-left: 86px;
+  }
+  .image {
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    height: 500px;
+    margin-top: 3px;
+    margin-bottom: 14px;
+    padding-top: 2px;
+    padding-bottom: 11px;
+    opacity: 0.26;
+  }
+  .button {
+    position: relative;
+    top: 71px;
+    bottom: -25px;
+    min-height: 50px;
+    min-width: 300px;
+    margin-bottom: 50px;
+    margin-left: 38px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+  }
+  .section {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+  }
+  .heading-2 {
+    color: #3f5e86;
+    font-size: 18px;
+  }
+  .text-block {
+    color: #3f5e86;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .paragraph {
+    position: relative;
+    bottom: -11px;
+    font-size: 16px;
+  }
+  .paragraph-2 {
+    position: relative;
+    top: 1px;
+    bottom: -10px;
+    font-size: 12px;
+  }
+  .body-2 {
+    font-size: 12px;
+  }
+  .paragraph-3 {
+    position: relative;
+    bottom: -11px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+  .div-block {
+    position: relative;
+    top: 440px;
+  }
+  .heading-3 {
+    margin-bottom: 13px;
+    padding-top: 22px;
+    background-color: #248fd8;
+    text-align: center;
+  }
+  .heading-4 {
+    color: #3f5e86;
+    font-size: 16px;
+  }
+  .paragraph-4 {
+    font-size: 1px;
+  }
+  .paragraph-5 {
+    font-size: 13px;
+  }
+  .paragraph-6 {
+    background-color: #0a00ff;
+    color: #fff;
+    text-align: center;
+  }
+}
