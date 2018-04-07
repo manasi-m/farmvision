@@ -114,4 +114,18 @@
     padding-right: 54%;
     padding-left: 36%;
   }
+  .button-2 {
+    position: relative;
+    left: 106px;
+    top: 9px;
+    bottom: -11px;
+    width: 100%;
+    margin-right: 25px;
+    margin-left: 2px;
+    padding: 12px 19px 22px 21px;
+  }
+  .button-3 {
+    width: 100%;
+    text-align: center;
+  }
 }
