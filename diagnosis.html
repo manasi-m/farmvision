@@ -15,7 +15,7 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <style>
-  .sidenav-trigger {
+  #sn {
     color: white;
   }
   a:link, a:visited {
@@ -41,7 +41,7 @@
             </li>
         </ul>
         <!-- slide menu appears on mobile screens -->
-        <a href="#" data-target="slide-out" class="sidenav-trigger">
+        <a href="#" data-target="slide-out" id="sn" class="sidenav-trigger">
             <i class="material-icons">menu</i>
         </a>
         <ul id="slide-out" class="sidenav">
@@ -69,25 +69,25 @@
       <i class="material-icons circle"> <a href="aphids.html"/><img style="max-height: 35px;max-width: 160px;" src="images/Aphid.png"/></i>
       <span class="title">Aphids</span>
       <p>Likelihood of pest: 85% <br>
-        <a style="color:#0000FF" target="_blank" href="https://www.encyclopedia.com/plants-and-animals/animals/zoology-invertebrates/aphids">More Information</a>
+        <a style="color:#0000FF" target="_blank" href="https://www.encyclopedia.com/plants-and-animals/animals/zoology-invertebrates/aphids" class="secondary-content">Read More</a>
       </p>
-      <a href="aphids.html" class="secondary-content">Treatments</a>
+      <a href="aphids.html" style="color:#0000FF" >Treatment + Occurrence Map</a>
     </li>
     <li class="collection-item avatar">
       <i class="material-icons circle green"><a href="beetles.html"/><img style="max-height: 35px;max-width: 160px;" src="images/beetle.png"/></i>
       <span class="title">Flea Beetles</span>
       <p>Likelihood of pest: 10% <br>
-         <a style="color:#0000FF" target="_blank" href="https://www.britannica.com/animal/flea-beetle">More Information</a>
+         <a style="color:#0000FF" target="_blank" href="https://www.britannica.com/animal/flea-beetle" class="secondary-content">Read More</a>
       </p>
-      <a href="beetles.html" class="secondary-content">Treatments</a>
+      <a href="beetles.html" style="color:#0000FF">Treatment + Occurrence Map</a>
     </li>
     <li class="collection-item avatar">
         <i class="material-icons circle red"><img style="max-height: 35px;max-width: 160px;" src="images/mildew.png"/></i>
         <span class="title">Downy Mildew</span>
         <p>Likelihood of pest: 4% <br>
-           <a style="color:#0000FF" target="_blank" href="https://www.britannica.com/science/downy-mildew">More Information</a>
+           <a style="color:#0000FF" target="_blank" class="secondary-content" href="https://www.britannica.com/science/downy-mildew">Read More</a>
         </p>
-        <a href="#" class="secondary-content">Treatments</a>
+        <a href="#" style="color:#0000FF">Treatment + Occurrence Map</a>
     </li>
   </ul>
 
