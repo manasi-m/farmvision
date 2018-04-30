@@ -5,11 +5,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/main.js" type='module'></script>
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
 <link href="css/webflow.css" rel="stylesheet" type="text/css">
 <link href="css/justins-awesome-project.webflow.css" rel="stylesheet" type="text/css">
@@ -62,9 +61,44 @@ body, html {
 </style>
 </head>
 <body>
-<div>
-<h1 class="heading-2">  &lt; <a href="diagnosis.html" style="text-decoration:none;">Diagnosis</a>                          <a href="inventory-list.html" style="text-decoration:none;">Inventory</a></h1>
-</div>
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo">FarmVision</a>
+        <ul class="right hide-on-med-and-down black-text">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="diagnosis.html">Diagnoses</a>
+            </li>
+            <li>
+                <a href="inventory-list.html">Inventory</a>
+            </li>
+            <li>
+                <a href="info.html">About Us</a>
+            </li>
+        </ul>
+        <!-- This slide menu will only appear on a mobile screen -->
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <a href="index.html"><i class="large material-icons">home</i>Home</a>
+            </li>
+            <li>
+                <a href="diagnosis.html"><i class="large material-icons">trending_up</i>Diagnosis</a>
+            </li>
+            <li>
+                <a href="inventory-list.html"><i class="large material-icons">playlist_add_check</i>Inventory</a>
+            </li>
+            <li>
+                <a href="info.html"><i class="large material-icons">mood</i>About Us</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
 <h2 style= "text-align: center"> Aphids </h2>
 <button class="tablink" onclick="openPage('Treatment', this, '#64a0db')"id="defaultOpen">Treatment</button>
 <button class="tablink" onclick="openPage('Map', this, '#64a0db')" >Infestation Map</button>

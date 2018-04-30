@@ -5,9 +5,7 @@
 <head>
   <meta charset="utf-8">
   <title>Diagnosis</title>
-  <meta content="Diagnosis" property="og:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/justins-awesome-project.webflow.css" rel="stylesheet" type="text/css">
@@ -16,6 +14,9 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <script src="js/main.js" type='module'></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <style>
@@ -24,37 +25,71 @@
   }
 </style>
 </head>
-<body>
-  <div>
-    <h1 class="heading-2">   &lt; <a href= "inputForm.html" style="text-decoration:none;">Form</a>            Diagnoses          <a href= "index.html" style="text-decoration:none;">Home</a></h1>
-    <div><img src="images/30020668_1677196035650694_1369376687_n.png" srcset="images/30020668_1677196035650694_1369376687_n-p-500.png 500w, images/30020668_1677196035650694_1369376687_n.png 728w" sizes="100vw"></div>
-  </div>
+<nav class="blue" role="navigation">
+    <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo">FarmVision</a>
+        <ul class="right hide-on-med-and-down black-text">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="diagnosis.html">Diagnoses</a>
+            </li>
+            <li>
+                <a href="inventory-list.html">Inventory</a>
+            </li>
+            <li>
+                <a href="info.html">About Us</a>
+            </li>
+        </ul>
+        <!-- This slide menu will only appear on a mobile screen -->
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <a href="index.html"><i class="large material-icons">home</i>Home</a>
+            </li>
+            <li>
+                <a href="diagnosis.html"><i class="large material-icons">trending_up</i>Diagnosis</a>
+            </li>
+            <li>
+                <a href="inventory-list.html"><i class="large material-icons">playlist_add_check</i>Inventory</a>
+            </li>
+            <li>
+                <a href="info.html"><i class="large material-icons">mood</i>About Us</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<div><img src="images/30020668_1677196035650694_1369376687_n.png" srcset="images/30020668_1677196035650694_1369376687_n-p-500.png 500w, images/30020668_1677196035650694_1369376687_n.png 728w" sizes="100vw"></div>
 
   <p>Possible Diagnoses (Note: may not add up to 100%)</p>
     <ul class="collection">
     <li class="collection-item avatar">
-      <i class="material-icons circle"> <a href="aphids.html"/></i>
+      <i class="material-icons circle"> <a href="aphids.html"/><img style="max-height: 35px;max-width: 160px;" src="images/Aphid.png"/></i>
       <span class="title">Aphids</span>
       <p>Likelihood of pest: 85% <br>
         <a style="color:#0000FF" target="_blank" href="https://www.encyclopedia.com/plants-and-animals/animals/zoology-invertebrates/aphids">More Information</a>
       </p>
-      <a href="aphids.html" class="secondary-content"><i class="material-icons">Treatments</i></a>
+      <a href="aphids.html" class="secondary-content">Treatments</a>
     </li>
     <li class="collection-item avatar">
-      <i class="material-icons circle green"><a href="beetles.html"/></i>
+      <i class="material-icons circle green"><a href="beetles.html"/><img style="max-height: 35px;max-width: 160px;" src="images/beetle.png"/></i>
       <span class="title">Flea Beetles</span>
       <p>Likelihood of pest: 10% <br>
          <a style="color:#0000FF" target="_blank" href="https://www.britannica.com/animal/flea-beetle">More Information</a>
       </p>
-      <a href="beetles.html" class="secondary-content"><i class="material-icons">Treatments</i></a>
+      <a href="beetles.html" class="secondary-content">Treatments</a>
     </li>
     <li class="collection-item avatar">
-      <i class="material-icons circle red"></i>
-      <span class="title">Downy Mildew</span>
-      <p>Likelihood of disease: 4% <br>
-        <a style="color:#0000FF" target="_blank" href="https://www.britannica.com/science/downy-mildew">More Information</a>
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">Treatments</i></a>
+        <i class="material-icons circle red"><img style="max-height: 35px;max-width: 160px;" src="images/mildew.png"/></i>
+        <span class="title">Downy Mildew</span>
+        <p>Likelihood of pest: 4% <br>
+           <a style="color:#0000FF" target="_blank" href="https://www.britannica.com/science/downy-mildew">More Information</a>
+        </p>
+        <a href="#" class="secondary-content">Treatments</a>
     </li>
   </ul>
 
