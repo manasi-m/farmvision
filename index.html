@@ -13,11 +13,61 @@
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <script src="js/main.js" type='module'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <title>Landing Page</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
+  <style>
+    h2 {
+      text-align: center;
+      font-weight: 700;
+    }
+
+    h1{
+      text-align: center;
+      font-weight: 700; 
+      font-size: 3em; 
+    }
+
+    body {
+      background-image: url(http://www.ujuzikilimo.com/images/blog/precision%20farming.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 700px;
+      color: white; 
+    }
+
+    h2  {
+      margin-top: 20%
+    }
+
+    .content{
+      background-color: rgba(211,211,211, 0.2); }
+
+
+    h2 span{ 
+        color: white; 
+        font: bold 24px/45px Helvetica, Sans-Serif; 
+        letter-spacing: -1px;  
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px; 
+      }
+
+      #nextbtn{
+        text-align: center;
+      }
+    
+      </style>
+        
 </head>
 <body id="index">
   <nav class="blue" role="navigation">
     <div class="nav-wrapper container">
-        <a href="index.html" class="brand-logo">FarmVision</a>
+        <a href="index.html" class="brand-logo"></a>
         <ul class="right hide-on-med-and-down black-text">
             <li>
                 <a href="index.html">Home</a>
@@ -53,16 +103,18 @@
 
     </div>
 </nav>
-
-  <!-- <img src="images/30020451_1677195232317441_603653525_n.png" width="401" height="400" srcset="images/30020451_1677195232317441_603653525_n-p-500.png 500w, images/30020451_1677195232317441_603653525_n.png 750w"  class="image"> -->
-  <h1 class="heading">Farmvision</h1>
-  <div>The Pest and Disease Infestation System You Can't Live Without</div>
-
-  <a href="cameraNotif1.html" style="text-decoration:none;" class="button-3 w-button waves-effect waves-light btn">What disease or pest is this?</a>
+  
+  <div>
+    <h1 style="color: green;">Welcome To FarmVision</h1>
+    <hr>
+    <div class="content"> 
+    <h2><span class="span">Your one-stop shop for pest and disease identification and treatment</span></h2>
+    <a id="nextbtn" href="cameraNotif1.html" style="display: inline-block; width: 80%; font-weight: bold; margin-left: 10%; margin-right: 10%;" class="button-3 waves-effect waves-light btn-large">Get Started</a>
+    </div>
+  </div>
 
   
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
